@@ -11,7 +11,7 @@ def string_info(st):
 
 def is_contains(st, sp):
     count_calls()
-    st = st.lower()
+    st.lower()
     sp_ = [x.lower() for x in sp]
 
     if st in sp_:
